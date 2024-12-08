@@ -762,7 +762,7 @@ def handle_devices(stop_event):
                 except StopIteration:
                     continue
 
-                devices.remove(device)
+                #devices.remove(device)
                 motion_devices = devices
 
             # Virtual device (Combined Joy-Cons or Virtual Pro-Con)
